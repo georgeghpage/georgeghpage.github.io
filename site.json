@@ -1,54 +1,46 @@
 {
-  "name": "Your Name",
-  "tagline": "Software engineer working on interesting problems.",
-  "email": "you@example.com",
+  "name": "Maltsev Egor",
+  "tagline": "Machine Learning Engineer — Retrieval, LLM Systems & Agent Reliability",
+  "email": "maltsev.work@yahoo.com",
   "links": {
     "github": "https://github.com/georgeghpage",
-    "linkedin": "https://linkedin.com/in/yourname",
-    "x": "https://x.com/yourname"
+    "linkedin": "https://www.linkedin.com/in/georgemaltsev",
+    "x": ""
   },
-  "about": "Two or three sentences about you — what you do, what you care about, and what you are looking for. Keep it plain and specific.",
+  "about": "Machine Learning Engineer with 5+ years of experience across production ML, information retrieval, and applied LLM systems. Background spans operational prediction, semantic/hybrid retrieval, RAG and LLM infrastructure, with current focus on evaluation and reliability of tool-using agent systems.",
   "experience": [
     {
-      "title": "Senior Software Engineer",
-      "org": "Company Name",
-      "date": "2023 — now",
-      "desc": "One or two lines on what you build or own, and the impact it had."
+      "title": "Machine Learning Engineer",
+      "org": "GitLab · Remote",
+      "date": "Sep 2024 — now",
+      "desc": "AI Gateway and LLM evaluation infrastructure — provider capability handling, normalized responses, failure classification, latency telemetry. Context-retrieval evaluation for AI-powered developer workflows. Since mid-2025: agent execution and environment-backed evaluation — representative task completion improved from the mid-60% to the mid-70% range across reliability iterations."
     },
     {
-      "title": "Software Engineer",
-      "org": "Another Company",
-      "date": "2021 — 2023",
-      "desc": "What you worked on, the systems you owned, one concrete result."
+      "title": "Software Engineer II, Search",
+      "org": "Elastic · Remote",
+      "date": "Nov 2022 — Aug 2024",
+      "desc": "Retrieval evaluation tooling for lexical and semantic search (NDCG@10, Recall@K, MRR). Evaluated BM25, dense, learned-sparse and RRF hybrid retrieval as Elastic's semantic search evolved — a selected hybrid configuration improved NDCG@10 by ~6–7% over the BM25 baseline. Extended evaluation into cross-encoder reranking and RAG failure separation."
     },
     {
-      "title": "Junior Engineer",
-      "org": "First Company",
-      "date": "2019 — 2021",
-      "desc": "What you learned and shipped."
+      "title": "Data Scientist",
+      "org": "Wolt · Remote",
+      "date": "Jan 2021 — Oct 2022",
+      "desc": "Restaurant preparation-time prediction from merchant, temporal and operational features — reduced offline MAE by ~8% versus the previous baseline. Improved cold-start handling with hierarchical fallback features; added training-serving parity validation to Wolt's shared ML deployment workflow."
     }
   ],
   "education": [
     {
-      "title": "B.S. Computer Science",
-      "org": "University Name",
-      "date": "2015 — 2019",
+      "title": "B.Sc. in Computer Science",
+      "org": "Harbin Institute of Technology (Shenzhen)",
+      "date": "",
       "desc": ""
     }
   ],
   "skills": [
-    {
-      "label": "Languages",
-      "items": "Python, Go, TypeScript, SQL"
-    },
-    {
-      "label": "Tools",
-      "items": "Kubernetes, AWS, Postgres, Redis"
-    },
-    {
-      "label": "Interests",
-      "items": "distributed systems, ML infrastructure"
-    }
+    { "label": "Languages", "items": "Python, SQL" },
+    { "label": "ML / NLP", "items": "Scikit-learn, PyTorch, Transformers, SentenceTransformers, gradient boosting, embeddings, reranking" },
+    { "label": "Search / LLM", "items": "BM25, vector search, hybrid retrieval, RRF, RAG, tool calling, structured outputs, agent evaluation" },
+    { "label": "Infrastructure", "items": "Docker, Kubernetes, MLflow, Airflow, Flyte, FastAPI, AWS, GitLab CI/CD, vLLM" }
   ],
-  "footer": "© 2026 Your Name"
+  "footer": "© 2026 Maltsev Egor"
 }

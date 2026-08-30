@@ -10,9 +10,9 @@ Live at https://georgeghpage.github.io
 ```
 
 Then open http://127.0.0.1:4173/dev — edit CV details (name, experience,
-education, skills…), create / edit / delete blog posts, and **publish**
-(git commit + push) from one page. Site preview runs at
-http://127.0.0.1:4173/ next to it.
+education, skills…) and **publish** (git commit + push). The **writing desk**
+at http://127.0.0.1:4173/dev/posts is where you create, edit, and delete
+blog posts. Site preview runs at http://127.0.0.1:4173/ next to it.
 
 **Only you can use it:**
 - the server binds to `127.0.0.1` — unreachable from the network
