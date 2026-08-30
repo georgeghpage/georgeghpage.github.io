@@ -179,6 +179,28 @@ section { margin-top: 3rem; }
   max-width: 36rem;
 }
 
+.entry-points {
+  margin: 0.35rem 0 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 0.92rem;
+  max-width: 36rem;
+}
+
+.entry-points li {
+  position: relative;
+  padding-left: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.entry-points li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--faint);
+}
+
 .skills p { color: var(--muted); font-size: 0.92rem; margin-bottom: 0.4rem; }
 .skills strong { color: var(--ink); font-weight: 600; }
 

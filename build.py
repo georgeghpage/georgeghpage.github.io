@@ -93,7 +93,17 @@ def save_site(data):
 
 def _entry(e):
     desc = (e.get("desc") or "").strip()
-    desc_html = f"\n          <p>{esc(desc)}</p>" if desc else ""
+    if "\n" in desc:
+        items = "".join(
+            f"\n            <li>{esc(line)}</li>"
+            for line in desc.splitlines()
+            if line.strip()
+        )
+        desc_html = f'\n          <ul class="entry-points">{items}\n          </ul>'
+    elif desc:
+        desc_html = f"\n          <p>{esc(desc)}</p>"
+    else:
+        desc_html = ""
     return f"""        <div class="entry">
           <div class="entry-head">
             <div>

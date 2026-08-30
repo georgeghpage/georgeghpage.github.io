@@ -13,19 +13,19 @@
       "title": "Machine Learning Engineer",
       "org": "GitLab · Remote",
       "date": "Sep 2024 — now",
-      "desc": "AI Gateway and LLM evaluation infrastructure — provider capability handling, normalized responses, failure classification, latency telemetry. Context-retrieval evaluation for AI-powered developer workflows. Since mid-2025: agent execution and environment-backed evaluation — representative task completion improved from the mid-60% to the mid-70% range across reliability iterations."
+      "desc": "Contributed to AI Gateway and LLM evaluation infrastructure — provider capability handling, normalized responses, failure classification, latency telemetry\nWorked on context-retrieval evaluation for AI-powered developer workflows, including permission-sensitive repository and project context\nSince mid-2025 focused on agent execution and environment-backed evaluation — representative task completion improved from the mid-60% to the mid-70% range across reliability iterations\nTyped tool schemas, read/write separation, bounded execution, trace-based failure analysis, safer handling of state-changing operations"
     },
     {
       "title": "Software Engineer II, Search",
       "org": "Elastic · Remote",
       "date": "Nov 2022 — Aug 2024",
-      "desc": "Retrieval evaluation tooling for lexical and semantic search (NDCG@10, Recall@K, MRR). Evaluated BM25, dense, learned-sparse and RRF hybrid retrieval as Elastic's semantic search evolved — a selected hybrid configuration improved NDCG@10 by ~6–7% over the BM25 baseline. Extended evaluation into cross-encoder reranking and RAG failure separation."
+      "desc": "Built retrieval evaluation tooling for lexical and semantic search — NDCG@10, Recall@K, MRR, segmented across query classes\nEvaluated BM25, dense retrieval, learned sparse retrieval and RRF-based hybrid search as Elastic's semantic-search capabilities evolved\nA selected hybrid configuration improved NDCG@10 by ~6–7% relative to the BM25-only baseline on the team's labeled relevance set\nRan offline cross-encoder reranking experiments; extended retrieval evaluation into RAG experiments to separate retrieval, context-selection and generation failures"
     },
     {
       "title": "Data Scientist",
       "org": "Wolt · Remote",
       "date": "Jan 2021 — Oct 2022",
-      "desc": "Restaurant preparation-time prediction from merchant, temporal and operational features — reduced offline MAE by ~8% versus the previous baseline. Improved cold-start handling with hierarchical fallback features; added training-serving parity validation to Wolt's shared ML deployment workflow."
+      "desc": "Developed restaurant preparation-time prediction models from merchant, temporal and operational features — reduced offline MAE by ~8% versus the previous baseline\nImproved cold-start handling for new and low-volume venues using hierarchical fallback features; added checks for stale or missing operational signals\nIntegrated the project with Wolt's shared ML deployment workflow and added training-serving parity validation"
     }
   ],
   "education": [
