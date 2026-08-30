@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Your Name</title>
+  <meta name="description" content="Writing by Your Name.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23ffd700'/></svg>">
+</head>
+<body>
+  <div class="container">
+
+    <header class="site-header">
+      <a class="site-name" href="index.html">Your Name</a>
+      <nav class="site-nav">
+        <a href="index.html">main</a>
+        <a href="blog.html" class="active">blog</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2 class="section-title">Writing</h2>
+
+        <ul class="post-list">
+          <!-- dev:new-posts -->
+          <!-- Add new posts here, NEWEST FIRST (or use the dev terminal / new-post.sh). Format:
+          <li><time datetime="YYYY-MM-DD">YYYY-MM-DD</time><a href="posts/YYYY-MM-DD-slug.html">Post title</a></li>
+          -->
+          <li><time datetime="2026-08-30">2026-08-30</time><a href="posts/2026-08-30-hello-world.html">Hello, world</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      © 2026 Your Name
+    </footer>
+
+  </div>
+</body>
+</html>

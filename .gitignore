@@ -1,0 +1,4 @@
+.DS_Store
+# local dev terminal — never published to the live site
+dev/
+dev.sh

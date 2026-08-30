@@ -1,0 +1,54 @@
+{
+  "name": "Your Name",
+  "tagline": "Software engineer working on interesting problems.",
+  "email": "you@example.com",
+  "links": {
+    "github": "https://github.com/georgeghpage",
+    "linkedin": "https://linkedin.com/in/yourname",
+    "x": "https://x.com/yourname"
+  },
+  "about": "Two or three sentences about you — what you do, what you care about, and what you are looking for. Keep it plain and specific.",
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "org": "Company Name",
+      "date": "2023 — now",
+      "desc": "One or two lines on what you build or own, and the impact it had."
+    },
+    {
+      "title": "Software Engineer",
+      "org": "Another Company",
+      "date": "2021 — 2023",
+      "desc": "What you worked on, the systems you owned, one concrete result."
+    },
+    {
+      "title": "Junior Engineer",
+      "org": "First Company",
+      "date": "2019 — 2021",
+      "desc": "What you learned and shipped."
+    }
+  ],
+  "education": [
+    {
+      "title": "B.S. Computer Science",
+      "org": "University Name",
+      "date": "2015 — 2019",
+      "desc": ""
+    }
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "items": "Python, Go, TypeScript, SQL"
+    },
+    {
+      "label": "Tools",
+      "items": "Kubernetes, AWS, Postgres, Redis"
+    },
+    {
+      "label": "Interests",
+      "items": "distributed systems, ML infrastructure"
+    }
+  ],
+  "footer": "© 2026 Your Name"
+}
