@@ -19,4 +19,4 @@ sed -e "s/POST_TITLE/${title}/g" -e "s/POST_DATE/${date}/g" posts/_template.html
 echo "created $file"
 echo
 echo "now add this row to blog.html (top of the <ul class=\"post-list\">):"
-printf '  <li><time datetime="%s">%s</time><a href="%s">%s</a></li>\n' "$date" "$date" "$file" "$title"
+printf '  <li><time datetime="%s">%s</time><div class="post-main"><a href="%s">%s</a></div></li>\n' "$date" "$date" "$file" "$title"
