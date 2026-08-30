@@ -2,3 +2,4 @@
 # local dev terminal — never published to the live site
 dev/
 dev.sh
+__pycache__/
